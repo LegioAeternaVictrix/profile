@@ -5,8 +5,8 @@ import { CardInfo } from "./Card";
 function Hobbies() {
   return (
     <div className="container">
-      <Title title="Passive activities & Hobbies" />
-      <div className="me-content cards">
+      <Title>Passive activities & Hobbies</Title>
+      <div className="content cards">
         <Card
           title="History"
           img="history"
@@ -37,7 +37,7 @@ function Hobbies() {
         <Card
           title="Movies"
           img="marvel"
-          href="https://www.youtube.com/watch?v=aiRY36TPVo8"
+          href="https://www.youtube.com/watch?v=0aJtLnhQ2K8"
         >
           <CardInfo>MARVEL</CardInfo>
           <CardInfo>History</CardInfo>

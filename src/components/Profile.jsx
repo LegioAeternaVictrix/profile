@@ -1,28 +1,31 @@
 import Detail from "./common/Detail";
 import Button from "./common/Button";
+import { DetailsBox } from "./common/Detail";
 
 function Profile() {
   return (
     <div className="profile">
-      <div className="profile-left">
+      <div className="box-left">
         <img className="profile-photo" src="/img/me.jpg" alt="me" />
-        <h1 className="profile-name">Claudiu Baituc</h1>
-        <h4 className="web-developer">WEB DEVELOPER</h4>
-        <div className="details">
-          <Detail icon="street-view" hiddenText="(born and raised)">
+        <h1 className="profile-name ff-1">Claudiu Baituc</h1>
+        <h4 className="profile-developer ff-1">WEB DEVELOPER</h4>
+        <DetailsBox>
+          <Detail icon="fas fa-street-view" hiddenText="(born and raised)">
             Arad
           </Detail>
-          <Detail icon="birthday-cake" hiddenText="(21.06.1996)">
+          <Detail icon="fas fa-birthday-cake" hiddenText="(21.06.1996)">
             XXI.VI.MCMXCVI
           </Detail>
-        </div>
+        </DetailsBox>
       </div>
-      <div className="profile-right">
-        <h1 className="">Hi, I`m Claudiu,</h1>
+      <div className="box-right">
+        <h1 className="profile-hi">Hi, I'm Claudiu,</h1>
 
-        <h2>a developer specialized in both front-end and back-end.</h2>
-        <Button icon="fas fa-project-diagram" href="/projects">
-          PROJECTS
+        <p className="text">
+          a developer specialized in both front-end and back-end.
+        </p>
+        <Button icon="fas fa-project-diagram" href="/my-projects">
+          MY PROJECTS
         </Button>
         <Button
           icon="fab fa-github"

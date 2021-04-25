@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Profile from "./components/Profile";
-import About from "./components/About";
+import Me from "./components/Me";
+import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import NotFound from "./components/NotFound";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -11,7 +12,8 @@ function App() {
       <Header />
       <Switch>
         <Route path="/" exact component={Profile} />
-        <Route path="/about" component={About} />
+        <Route path="/me" component={Me} />
+        <Route path="/my-projects" component={Projects} />
         <Route component={NotFound} />
       </Switch>
       <Footer />

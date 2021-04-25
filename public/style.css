@@ -8,10 +8,8 @@
 
 body {
   background-image: url("/img/bg.jpg");
-  /* background-size: cover; */
   background-repeat: no-repeat;
   background-attachment: fixed;
-  /* background-position: center; */
   animation: change 70s ease-in-out infinite;
 }
 
@@ -26,6 +24,15 @@ body {
     background-position: 0 70%;
   }
 }
+
+/* ### FONT STYLE ### */
+.ff-1 {
+  font-family: "Zen Dots", cursive;
+}
+
+/* .ff-2 {
+} */
+/* ### FONT STYLE ### */
 
 /* ### HEADER / FOOTER ### */
 header,
@@ -66,24 +73,6 @@ footer {
   height: 100vh;
 }
 
-.profile-left {
-  background-color: hsla(337, 92%, 43%, 0.5);
-  padding: 3rem;
-  width: 30rem;
-  text-align: center;
-  transition: width 1s;
-}
-
-.profile-left:hover {
-  width: 32rem;
-}
-
-.profile-right {
-  flex: 1;
-  padding: 10rem 5rem;
-  background-color: hsla(0, 0%, 0%, 0.3);
-}
-
 .profile-photo {
   height: 14rem;
   width: 14rem;
@@ -104,19 +93,22 @@ footer {
 }
 
 .web-developer {
-  margin: 0;
   font-weight: lighter;
 }
 
-.profile-name,
-.web-developer {
-  font-family: "Zen Dots", cursive;
+.profile-hi {
+  margin-bottom: 1rem;
 }
 /* ### PROFILE ### */
 
 /* ### DETAIL ### */
 .details {
   margin-top: 3rem;
+}
+
+.details-text {
+  font-style: italic;
+  font-weight: 100;
 }
 
 .detail {
@@ -147,7 +139,7 @@ footer {
 
 .hidden-text {
   opacity: 0;
-  margin-left: 1rem;
+  margin-left: 0.7rem;
   transition: opacity 0.3s;
 }
 
@@ -194,15 +186,6 @@ footer {
 }
 /* ### BUTTON ### */
 
-/* ### MARGIN ### */
-h1,
-h2,
-h3,
-h4 {
-  margin-bottom: 2rem;
-}
-/* ### MARGIN ### */
-
 /* ### ICONS ### */
 .icon-link {
   margin: 1rem;
@@ -219,7 +202,6 @@ h4 {
 /* ### ICONS ### */
 
 /* ### NOT FOUND ### */
-
 .not-found {
   height: 100vh;
   padding: 10rem 0;
@@ -251,15 +233,17 @@ h4 {
 }
 
 .title {
-  font-family: "Zen Dots", cursive;
-  margin: 0;
   width: 50%;
   transition: all 2s;
 }
+
+.box-right .title-box {
+  margin-bottom: 2rem;
+}
 /* ### TITLE ### */
 
-/* ### ME ### */
-.me {
+/* ### CONTAINER ### */
+.bg-dark {
   background-color: hsla(0, 0%, 0%, 0.3);
   padding: 5rem 0;
 }
@@ -280,20 +264,42 @@ h4 {
   border-bottom: solid 2px #000;
 }
 
-.me-content {
+.content {
   background-color: hsla(0, 0%, 100%, 0.3);
   padding: 4rem;
   transition: all 2s;
 }
 
-.me-content:hover {
-  background-color: hsla(337, 92%, 43%, 0.2);
+.content:hover {
+  background-color: hsla(337, 92%, 43%, 0.4);
 }
 
-.me-text {
+.text {
   font-size: 1.6rem;
 }
-/* ### ME ### */
+
+.d-flex {
+  display: flex;
+}
+
+.box-left {
+  background-color: hsla(337, 92%, 43%, 0.5);
+  padding: 3rem;
+  width: 30rem;
+  text-align: center;
+  transition: width 1s;
+}
+
+.box-left:hover {
+  width: 32rem;
+}
+
+.box-right {
+  flex: 1;
+  padding: 3rem;
+  background-color: hsla(0, 0%, 0%, 0.3);
+}
+/* ### CONTAINER ### */
 
 /* ### CARD ### */
 .cards {
@@ -319,9 +325,7 @@ h4 {
 }
 
 .card-title {
-  font-family: "Zen Dots", cursive;
   font-weight: 100;
-  margin: 0;
   text-align: center;
 }
 
@@ -381,3 +385,9 @@ h4 {
   display: inline;
 }
 /* ### CARD ### */
+
+/* ### LOGO ### */
+.logo {
+  margin-bottom: 2rem;
+}
+/* ### LOGO ### */

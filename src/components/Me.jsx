@@ -4,7 +4,7 @@ import Hobbies from "./common/Hobbies";
 
 function About() {
   return (
-    <div className="me">
+    <div className="bg-dark">
       <AboutMe />
       <Hobbies />
     </div>

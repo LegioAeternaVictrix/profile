@@ -3,7 +3,8 @@ function Header() {
     <header>
       <ul className="nav">
         <NavItem href="/">HOME</NavItem>
-        <NavItem href="/about">ABOUT ME</NavItem>
+        <NavItem href="/me">ABOUT ME</NavItem>
+        <NavItem href="/my-projects">PROJECTS</NavItem>
       </ul>
     </header>
   );
