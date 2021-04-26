@@ -5,6 +5,7 @@ function Header() {
         <NavItem href="/">HOME</NavItem>
         <NavItem href="/me">ABOUT ME</NavItem>
         <NavItem href="/my-projects">PROJECTS</NavItem>
+        <NavItem href="/my-skills">SKILLS</NavItem>
       </ul>
     </header>
   );

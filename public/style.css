@@ -25,14 +25,31 @@ body {
   }
 }
 
-/* ### FONT STYLE ### */
+/* ### FONT STYLE / BORDER-RADIUS ### */
 .ff-1 {
   font-family: "Zen Dots", cursive;
 }
 
 /* .ff-2 {
 } */
-/* ### FONT STYLE ### */
+
+.text-shadow {
+  text-shadow: 2px 2px 1px #000;
+}
+
+.border-radius-sm {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.border-deeppink {
+  border: solid 2px #d30956;
+}
+
+.box-shadow-deeppink {
+  box-shadow: 0 0 15px #d30956;
+}
+/* ### FONT STYLE / BORDER-RADIUS ### */
 
 /* ### HEADER / FOOTER ### */
 header,
@@ -62,7 +79,7 @@ footer {
 }
 
 .nav-item:hover > .nav-link {
-  color: #e23477;
+  color: #d30956;
   border-bottom: solid 2px #fff;
 }
 /* ### HEADER / FOOTER ### */
@@ -82,7 +99,7 @@ footer {
 }
 
 .profile-photo:hover {
-  border: solid 4px #e23477;
+  border: solid 4px #d30956;
   transform: scale(1.1);
   border-radius: 10%;
 }
@@ -123,13 +140,13 @@ footer {
 }
 
 .detail:hover {
-  border-bottom: solid 1px #e23477;
+  border-bottom: solid 1px #d30956;
   background-color: hsla(0, 0%, 100%, 0.3);
 }
 
 .detail:hover > .icon {
   margin-right: 2rem;
-  color: #e23477;
+  color: #d30956;
 }
 
 .detail .icon {
@@ -156,7 +173,6 @@ footer {
   text-decoration: none;
   font-size: 1.2rem;
   border: solid 2px#fff;
-  border-radius: 4px;
   padding: 0.5rem 1rem;
   margin: 1rem;
   display: inline-block;
@@ -182,7 +198,7 @@ footer {
 
 .btn:hover > .icon,
 .btn:hover > span {
-  color: #e23477;
+  color: #d30956;
 }
 /* ### BUTTON ### */
 
@@ -197,7 +213,7 @@ footer {
 }
 
 .icon-link .icon:hover {
-  color: #e23477;
+  color: #d30956;
 }
 /* ### ICONS ### */
 
@@ -225,11 +241,9 @@ footer {
 
 /* ### TITLE ### */
 .title-box {
-  background-color: hsla(337, 92%, 43%, 0.5);
   border-bottom: solid 2px transparent;
   padding: 1rem;
   text-align: center;
-  transition: border-bottom 0.5s;
 }
 
 .title {
@@ -242,36 +256,66 @@ footer {
 }
 /* ### TITLE ### */
 
-/* ### CONTAINER ### */
-.bg-dark {
-  background-color: hsla(0, 0%, 0%, 0.3);
-  padding: 5rem 0;
+/* ### BG / COLORS ### */
+.bg-deeppink-transparent {
+  background-color: hsla(337, 92%, 43%, 0.5);
 }
 
+.bg-dark-transparent {
+  background-color: hsla(0, 0%, 0%, 0.5);
+}
+
+.bg-white-transparent {
+  background-color: hsla(0, 0%, 100%, 0.5);
+}
+
+.bg-deepdark {
+  background-color: #000;
+}
+
+.bg-deeppink {
+  background-color: #d30956;
+}
+
+.bg-white {
+  background-color: #f8f8f8;
+}
+
+.bg-dark {
+  background-color: #343a40;
+}
+
+.color-nodejs {
+  color: #68a063;
+}
+
+.color-react {
+  color: #61dbfb;
+}
+
+.color-javascript {
+  color: #f0db4f;
+}
+
+.color-java {
+  color: #5382a1;
+}
+/* ### BG / COLORS ### */
+
+/* ### CONTAINER ### */
 .container {
   max-width: 80rem;
   margin: 0 auto;
   margin-bottom: 5rem;
-  border-radius: 8px;
-  overflow: hidden;
 }
 
 .container:hover > .title-box .title {
   width: 100%;
 }
 
-.container:hover > .title-box {
-  border-bottom: solid 2px #000;
-}
-
 .content {
-  background-color: hsla(0, 0%, 100%, 0.3);
-  padding: 4rem;
+  padding: 4rem 1rem;
   transition: all 2s;
-}
-
-.content:hover {
-  background-color: hsla(337, 92%, 43%, 0.4);
 }
 
 .text {
@@ -283,7 +327,6 @@ footer {
 }
 
 .box-left {
-  background-color: hsla(337, 92%, 43%, 0.5);
   padding: 3rem;
   width: 30rem;
   text-align: center;
@@ -297,7 +340,6 @@ footer {
 .box-right {
   flex: 1;
   padding: 3rem;
-  background-color: hsla(0, 0%, 0%, 0.3);
 }
 /* ### CONTAINER ### */
 
@@ -310,8 +352,6 @@ footer {
 
 .card {
   display: grid;
-  border-radius: 8px;
-  overflow: hidden;
   transition: transform 1s;
 }
 
@@ -320,7 +360,6 @@ footer {
 }
 
 .card-header {
-  background-color: #000000cc;
   padding: 0.5rem;
 }
 
@@ -338,7 +377,6 @@ footer {
 .card-img {
   width: 100%;
   height: 100%;
-  opacity: 0.9;
   transition: all 2s;
 }
 
@@ -365,10 +403,6 @@ footer {
   opacity: 1;
 }
 
-.card-footer {
-  background-color: #e23678cc;
-}
-
 .card-footer .btn {
   margin: 0.5rem;
 }
@@ -391,3 +425,31 @@ footer {
   margin-bottom: 2rem;
 }
 /* ### LOGO ### */
+
+/* ### SKILL ### */
+.skill {
+  margin-bottom: 5rem;
+  padding: 2rem;
+}
+
+.skill-title-box {
+  flex: 1;
+  align-items: center;
+}
+
+.skill-title {
+  width: 100%;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.skill-img {
+  padding: 1rem;
+  height: 12rem;
+  margin: 2rem;
+}
+
+.skill-info {
+  padding: 0 20%;
+}
+/* ### SKILL ### */

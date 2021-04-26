@@ -2,15 +2,15 @@ import Button from "./Button";
 
 function Card(props) {
   return (
-    <div className="card">
-      <div className="card-header">
+    <div className="card border-radius-sm">
+      <div className="card-header bg-deepdark">
         <h1 className="card-title">{props.title}</h1>
       </div>
       <div className="card-body">
         <div className="card-details">{props.children}</div>
         <img className="card-img" src={`/img/card/${props.img}.jpg`} alt="me" />
       </div>
-      <div className="card-footer">
+      <div className="card-footer bg-deeppink">
         <Button href={props.href} icon="fas fa-link">
           Link
         </Button>

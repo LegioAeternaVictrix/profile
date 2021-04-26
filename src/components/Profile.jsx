@@ -5,10 +5,10 @@ import { DetailsBox } from "./common/Detail";
 function Profile() {
   return (
     <div className="profile">
-      <div className="box-left">
+      <div className="box-left bg-deeppink">
         <img className="profile-photo" src="/img/me.jpg" alt="me" />
-        <h1 className="profile-name ff-1">Claudiu Baituc</h1>
-        <h4 className="profile-developer ff-1">WEB DEVELOPER</h4>
+        <h1 className="profile-name ff-1 text-shadow">Claudiu Baituc</h1>
+        <h4 className="profile-developer ff-1 text-shadow">WEB DEVELOPER</h4>
         <DetailsBox>
           <Detail icon="fas fa-street-view" hiddenText="(born and raised)">
             Arad
@@ -18,7 +18,7 @@ function Profile() {
           </Detail>
         </DetailsBox>
       </div>
-      <div className="box-right">
+      <div className="box-right bg-dark-transparent">
         <h1 className="profile-hi">Hi, I'm Claudiu,</h1>
 
         <p className="text">

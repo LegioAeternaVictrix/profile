@@ -4,9 +4,11 @@ import { CardInfo } from "./Card";
 
 function Hobbies() {
   return (
-    <div className="container">
-      <Title>Passive activities & Hobbies</Title>
-      <div className="content cards">
+    <div className="container border-radius-sm">
+      <Title className="bg-dark text-shadow">
+        Passive activities & Hobbies
+      </Title>
+      <div className="content cards bg-white-transparent">
         <Card
           title="History"
           img="history"

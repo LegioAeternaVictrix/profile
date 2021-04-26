@@ -1,6 +1,6 @@
 function Button(props) {
   return (
-    <a className="btn" href={props.href}>
+    <a className="btn border-radius-sm" href={props.href}>
       <i className={`icon ${props.icon}`}></i>
       <span>{props.children}</span>
     </a>

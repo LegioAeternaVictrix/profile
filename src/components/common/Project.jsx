@@ -4,9 +4,9 @@ import { DetailsBox } from "./Detail";
 
 function Project(props) {
   return (
-    <div className="container">
-      <Title>{props.name}</Title>
-      <div className="content d-flex">
+    <div className="container border-radius-sm">
+      <Title className="bg-deeppink text-shadow">{props.name}</Title>
+      <div className="content d-flex bg-dark">
         <div className="box-left">
           <img
             className="logo"
@@ -17,7 +17,9 @@ function Project(props) {
           <DetailsBox text="Build with...">{props.children}</DetailsBox>
         </div>
         <div className="box-right">
-          <Title>Description</Title>
+          <Title className="bg-white-transparent border-radius-sm">
+            Description
+          </Title>
           <p className="text">{props.description}</p>
           <Button href={props.projectLink} icon="fas fa-link">
             {props.name}

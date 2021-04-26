@@ -1,7 +1,7 @@
-function Title({ children }) {
+function Title(props) {
   return (
-    <div className="title-box">
-      <h2 className="title ff-1">{children}</h2>
+    <div className={`title-box ${props.className}`}>
+      <h2 className="title ff-1">{props.children}</h2>
     </div>
   );
 }

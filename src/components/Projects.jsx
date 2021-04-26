@@ -3,7 +3,7 @@ import Detail from "./common/Detail";
 
 function Projects() {
   return (
-    <div className="bg-dark">
+    <div className="bg-dark-transparent" style={{ padding: "5rem" }}>
       <Project
         name="Green Code"
         logo="greencode"
@@ -25,7 +25,7 @@ function Projects() {
       <Project
         name="Warstrap"
         logo="warstrap"
-        description="Project description..."
+        description="Not online yet"
         projectLink="/warstrap"
         projectCodeLink="https://github.com/LegioAeternaVictrix/warstrap-front-end"
       >
