@@ -16,6 +16,12 @@ function Profile() {
           <Detail icon="fas fa-birthday-cake" hiddenText="(21.06.1996)">
             XXI.VI.MCMXCVI
           </Detail>
+          <Detail icon="fas fa-phone" hiddenText="0758644986">
+            Phone:
+          </Detail>
+          <Detail icon="fas fa-envelope" hiddenText="claudiubaituc@gmail.com">
+            Email:
+          </Detail>
         </DetailsBox>
       </div>
       <div className="box-right bg-dark-transparent">
