@@ -1,0 +1,14 @@
+.title-box {
+  border-bottom: solid 2px transparent;
+  padding: 1rem;
+  text-align: center;
+}
+
+.title {
+  width: 50%;
+  transition: all 2s;
+}
+
+.box-right .title-box {
+  margin-bottom: 2rem;
+}

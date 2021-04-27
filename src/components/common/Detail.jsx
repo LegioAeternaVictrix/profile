@@ -1,7 +1,9 @@
+import "../../styles/Detail.css";
+
 function Detail(props) {
   return (
-    <div className="detail">
-      <i className={`icon ${props.icon}`}></i>
+    <div className={`detail detail-${props.color}`}>
+      <i className={`icon icon-${props.color} ${props.icon}`}></i>
       <span>{props.children}</span>
       <span className="hidden-text">{props.hiddenText}</span>
     </div>

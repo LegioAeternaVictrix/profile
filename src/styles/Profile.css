@@ -1,0 +1,31 @@
+.profile {
+  display: flex;
+  height: 100vh;
+}
+
+.profile-photo {
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  border: solid 4px #fff;
+  transition: all 2s;
+}
+
+.profile-photo:hover {
+  border: solid 4px #d30956;
+  transform: scale(1.1);
+  border-radius: 10%;
+}
+
+.profile-name {
+  margin-top: 2rem;
+  margin-bottom: 0.1rem;
+}
+
+.web-developer {
+  font-weight: lighter;
+}
+
+.profile-hi {
+  margin-bottom: 1rem;
+}

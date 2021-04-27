@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+body {
+  background-image: url("./background/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: change 70s ease-in-out infinite;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 70%;
+  }
+  50% {
+    background-position: 100% 70%;
+  }
+  100% {
+    background-position: 0 70%;
+  }
+}
+
+/* ########## FONT STYLE ########## */
+.ff-1 {
+  font-family: "Zen Dots", cursive;
+}
+
+.ff-2 {
+  font-family: "Monoton", cursive;
+}
+/* ########## FONT STYLE ########## */
+
+/* ########## SHADOWS / BORDERS ########## */
+.border-radius-sm {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.border-deeppink {
+  border: solid 2px #d30956;
+}
+
+.box-shadow-deeppink {
+  box-shadow: 0 0 15px #d30956;
+}
+
+.box-shadow-white {
+  box-shadow: 0 0 15px #fff;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 1px #000;
+}
+/* ########## SHADOWS / BORDERS ########## */
+
+/* ########## BG / COLORS ########## */
+.bg-deeppink-transparent {
+  background-color: hsla(337, 92%, 43%, 0.5);
+}
+
+.bg-dark-transparent {
+  background-color: hsla(0, 0%, 0%, 0.5);
+}
+
+.bg-white-transparent {
+  background-color: hsla(0, 0%, 100%, 0.5);
+}
+
+.bg-deepdark {
+  background-color: #000;
+}
+
+.bg-deeppink {
+  background-color: #d30956;
+}
+
+.bg-white {
+  background-color: #f8f8f8;
+}
+
+.bg-dark {
+  background-color: #343a40;
+}
+
+.color-nodejs {
+  color: #68a063;
+}
+
+.color-react {
+  color: #61dbfb;
+}
+
+.color-javascript {
+  color: #f0db4f;
+}
+
+.color-java {
+  color: #5382a1;
+}
+
+.color-dark {
+  color: #343a40;
+}
+
+.color-deeppink {
+  color: #d30956;
+}
+/* ########## BG / COLORS ########## */
+
+/* ########## CONTAINER ########## */
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.container:hover > .title-box .title {
+  width: 100%;
+}
+
+.content {
+  padding: 4rem 1rem;
+  transition: all 2s;
+}
+
+.text {
+  font-size: 1.6rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.box-left {
+  padding: 3rem;
+  width: 30rem;
+  text-align: center;
+  transition: width 1s;
+}
+
+.box-left:hover {
+  width: 32rem;
+}
+
+.box-right {
+  flex: 1;
+  padding: 3rem;
+}
+/* ########## CONTAINER ########## */
+
+/* ########## LOGO ########## */
+.logo {
+  margin-bottom: 2rem;
+}
+/* ########## LOGO ########## */

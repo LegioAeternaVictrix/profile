@@ -1,3 +1,4 @@
+import "./styles/CommonStyle.css";
 import Header from "./components/Header";
 import Profile from "./components/Profile";
 import Me from "./components/Me";

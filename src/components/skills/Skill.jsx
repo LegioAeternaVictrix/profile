@@ -1,3 +1,4 @@
+import "../../styles/Skill.css";
 import { DetailsBox } from "../common/Detail";
 
 function Skill(props) {

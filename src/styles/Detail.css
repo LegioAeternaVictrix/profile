@@ -1,0 +1,83 @@
+.details {
+  margin-top: 3rem;
+}
+
+.details-text {
+  font-style: italic;
+  font-weight: 100;
+}
+
+.detail {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border-bottom: solid 2px #bebebe;
+  transition: all 0.2s;
+}
+
+.detail:hover {
+  background-color: hsla(0, 0%, 100%, 0.3);
+}
+
+.detail:hover > .icon {
+  margin-right: 2rem;
+}
+
+.detail .icon {
+  margin-right: 1rem;
+  transition: all 0.4s;
+}
+
+.hidden-text {
+  opacity: 0;
+  margin-left: 0.7rem;
+  transition: opacity 0.3s;
+}
+
+.detail:hover > .hidden-text {
+  opacity: 1;
+}
+
+/* DETAIL HOVER */
+.detail-deeppink:hover {
+  border-bottom: solid 2px #d30956;
+}
+
+.detail-nodejs:hover {
+  border-bottom: solid 2px #68a063;
+}
+
+.detail-react:hover {
+  border-bottom: solid 2px #61dbfb;
+}
+
+.detail-javascript:hover {
+  border-bottom: solid 2px #f0db4f;
+}
+
+.detail-java:hover {
+  border-bottom: solid 2px #5382a1;
+}
+
+.detail:hover > .icon-deeppink {
+  color: #d30956;
+}
+
+.detail:hover > .icon-nodejs {
+  color: #68a063;
+}
+
+.detail:hover > .icon-react {
+  color: #61dbfb;
+}
+
+.detail:hover > .icon-javascript {
+  color: #f0db4f;
+}
+
+.detail:hover > .icon-java {
+  color: #5382a1;
+}

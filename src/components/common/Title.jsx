@@ -1,3 +1,5 @@
+import "../../styles/Title.css";
+
 function Title(props) {
   return (
     <div className={`title-box ${props.className}`}>

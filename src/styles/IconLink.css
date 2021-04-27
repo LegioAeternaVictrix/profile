@@ -1,0 +1,12 @@
+.icon-link {
+  margin: 1rem;
+}
+
+.icon-link .icon {
+  font-size: 2rem;
+  transition: color 0.2s;
+}
+
+.icon-link .icon:hover {
+  color: #d30956;
+}

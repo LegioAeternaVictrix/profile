@@ -1,6 +1,6 @@
-import Title from "./Title";
-import Button from "./Button";
-import { DetailsBox } from "./Detail";
+import Title from "../common/Title";
+import Button from "../common/Button";
+import { DetailsBox } from "../common/Detail";
 
 function Project(props) {
   return (

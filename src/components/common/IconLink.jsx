@@ -1,3 +1,5 @@
+import "../../styles/IconLink.css";
+
 function IconLink({ icon, href }) {
   return (
     <a className="icon-link" href={href}>

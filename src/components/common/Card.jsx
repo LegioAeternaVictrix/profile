@@ -1,8 +1,9 @@
+import "../../styles/Card.css";
 import Button from "./Button";
 
 function Card(props) {
   return (
-    <div className="card border-radius-sm">
+    <div className="card border-radius-sm box-shadow-white">
       <div className="card-header bg-deepdark">
         <h1 className="card-title">{props.title}</h1>
       </div>

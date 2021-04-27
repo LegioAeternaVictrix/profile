@@ -1,3 +1,4 @@
+import "../styles/Profile.css";
 import Detail from "./common/Detail";
 import Button from "./common/Button";
 import { DetailsBox } from "./common/Detail";
@@ -9,6 +10,7 @@ function Profile() {
         <img className="profile-photo" src="/img/me.jpg" alt="me" />
         <h1 className="profile-name ff-1 text-shadow">Claudiu Baituc</h1>
         <h4 className="profile-developer ff-1 text-shadow">WEB DEVELOPER</h4>
+
         <DetailsBox>
           <Detail icon="fas fa-street-view" hiddenText="(born and raised)">
             Arad
