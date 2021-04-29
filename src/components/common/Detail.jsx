@@ -13,7 +13,9 @@ function Detail(props) {
 function DetailsBox(props) {
   return (
     <div className="details">
-      <h3 className="details-text">{props.text}</h3>
+      <h3 className="details-text" style={props.style}>
+        {props.text}
+      </h3>
       {props.children}
     </div>
   );

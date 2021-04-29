@@ -8,6 +8,12 @@
   align-items: center;
 }
 
+.skill-title-bg {
+  background-image: linear-gradient(to right, #343a40, #ffffff, #343a40);
+  padding: 0.5rem;
+  width: 100%;
+}
+
 .skill-title {
   width: 100%;
   font-size: 4rem;

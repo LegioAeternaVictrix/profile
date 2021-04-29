@@ -41,8 +41,16 @@ body {
   overflow: hidden;
 }
 
+.border-deepdark {
+  border: solid 2px #000;
+}
+
 .border-deeppink {
   border: solid 2px #d30956;
+}
+
+.box-shadow-deepdark {
+  box-shadow: 0 0 15px #000;
 }
 
 .box-shadow-deeppink {
